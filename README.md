@@ -6,6 +6,14 @@ CSE 153 - Assignment 2
 
 Where K-music meets AI through machine learning.
 
+- Symbolic, unconditioned generation: 
+  - I.e., train a model that learns a music distribution p(x) (presumably based on some training set) and samples from that distribution. A Markov chain (Module 3) is an example of such a model (though you should generally avoid models already implemented in homeworks unless you can significantly extend them).
+- Symbolic, conditioned generation: Similar to Option 1, except that generation is done conditionally, i.e., given some input. Example tasks include
+  - harmonization (generate notes or chords following a melody)
+  - or vice-versa (generate a melody which follows some chords)
+  - music transcription (i.e., estimate the sequence of notes played in a waveform or spectrogram)
+  - (others are also fine as long as the output is symbolic)
+
 Members:
 - Albert Ho
 - Alan Li
