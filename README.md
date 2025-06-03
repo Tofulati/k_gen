@@ -17,6 +17,7 @@ Where K-music meets AI through machine learning.
 Members:
 - Albert Ho
 - Alan Li
+- Joshua Liu
 
 
 ### Dataset Credits:
