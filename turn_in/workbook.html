@@ -7542,7 +7542,7 @@ pip install pretty_midi tensorflow notebook pypianoroll
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Unconditional Symbolic Dependencies</span>
@@ -7963,7 +7963,7 @@ File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">load_midi_files</span><span class="p">(</span><span class="n">directory</span><span class="o">=</span><span class="s1">'./Data/original_Data'</span><span class="p">,</span> <span class="n">max_files</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">fs</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">min_length</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
@@ -8132,7 +8132,7 @@ Created 1989 sequences of shape (128, 128)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">build_lstm_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.3</span><span class="p">):</span>
@@ -8169,7 +8169,7 @@ Created 1989 sequences of shape (128, 128)
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/rnn/rnn.py:199: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+<pre>/opt/anaconda3/envs/musicgen/lib/python3.10/site-packages/keras/src/layers/rnn/rnn.py:199: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
   super().__init__(**kwargs)
 </pre>
 </div>
@@ -8243,7 +8243,7 @@ Created 1989 sequences of shape (128, 128)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">build_biconditional_lstm_model</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="n">units</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.3</span><span class="p">):</span>
@@ -8513,7 +8513,7 @@ Epoch 50/50
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">generate_music</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">seed_sequence</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">temperature</span><span class="o">=</span><span class="mf">0.8</span><span class="p">):</span>
@@ -8593,7 +8593,7 @@ Epoch 50/50
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Generating new music..."</span><span class="p">)</span>
@@ -8667,7 +8667,7 @@ Generating 300 time steps...
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>100%|██████████| 300/300 [00:21&lt;00:00, 13.90it/s]</pre>
+<pre>100%|██████████| 300/300 [00:30&lt;00:00,  9.79it/s]</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -8710,7 +8710,7 @@ Generating 300 time steps...
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b9dbdca9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b9dbdca9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8766,34 +8766,6 @@ Generating 300 time steps...
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Generated music:"</span><span class="p">)</span>
 <span class="n">plot_piano_roll</span><span class="p">(</span><span class="n">generated_sequence</span><span class="p">,</span> <span class="s2">"Generated Piano Roll"</span><span class="p">,</span> <span class="n">max_time</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[2], line 25</span>
-<span class="ansi-green-fg">     23</span> plt<span style="color: rgb(98,98,98)">.</span>figure(figsize<span style="color: rgb(98,98,98)">=</span>(<span style="color: rgb(98,98,98)">12</span>, <span style="color: rgb(98,98,98)">4</span>))
-<span class="ansi-green-fg">     24</span> plt<span style="color: rgb(98,98,98)">.</span>subplot(<span style="color: rgb(98,98,98)">1</span>, <span style="color: rgb(98,98,98)">2</span>, <span style="color: rgb(98,98,98)">1</span>)
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 25</span> plt<span style="color: rgb(98,98,98)">.</span>plot(<span class="ansi-yellow-bg">history</span><span style="color: rgb(98,98,98)">.</span>history[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">loss</span><span style="color: rgb(175,0,0)">'</span>], label<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Training Loss</span><span style="color: rgb(175,0,0)">'</span>)
-<span class="ansi-green-fg">     26</span> plt<span style="color: rgb(98,98,98)">.</span>plot(history<span style="color: rgb(98,98,98)">.</span>history[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">val_loss</span><span style="color: rgb(175,0,0)">'</span>], label<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Validation Loss</span><span style="color: rgb(175,0,0)">'</span>)
-<span class="ansi-green-fg">     27</span> plt<span style="color: rgb(98,98,98)">.</span>xlabel(<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Epoch</span><span style="color: rgb(175,0,0)">'</span>)
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'history' is not defined</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
-<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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pk1TamqqiouLNWnSJL3wwgveDg8AQLJIDXJzc3Ozhg8frlGjRvVdy87OVnt7u44ePaphw4b1XW9paVFubm7C21911VV66623+n3+UCjIaXAuvVuyqR/s6R+b+sWe/vneMlBwu7q6FA6HE671Pu7u7k4I7tnuvfzyy9Xd3d3v848YkRHkOBgANvWLPf1jU7/Yc/AK9C3ltLQ0HT9+POFa7+P09PSE6+FwWCdOnEi4duLEiTPuAwDg4yBQcHNycnT48GF1dHT0XWttbVVWVpYyMhL/VJWbm6vm5uaEay0tLcrJybmI4wIAkJwCBXfMmDEqKCjQ4sWLdezYMR04cEB1dXUqLy8/497S0lLF43Ft2LBBPT092rBhg+LxuMrKyrwdHgCAZBFyzrkgb9DR0aHq6mpt375dl112mW677TY99NBDSklJUSQS0cKFC1VaWipJampq0k9+8hPt379fn/rUp1RVVaUbbrjhknwgAAAMas5IR0eH+853vuMKCgrc5MmT3WOPPeZOnjx51nu3bNniSkpK3IQJE9ytt97qfv/731sdM6kE2fT55593N998s8vPz3c333yzW7FihfFpB78ge/Z6++233fjx490f//hHo1MmlyCbbt++3ZWXl7v8/Hz3hS98wT377LPGpx38guxZX1/vbrzxRheJRFxJSYlrbGw0Pm1y6ezsdNOmTTvn1/LFtsksuF//+tfdgw8+6Lq7u93+/fvdjBkz3C9+8Ysz7vv73//uxo0b5zZv3uxOnjzp1q9f78aPH+/+9a9/WR01aQx0082bN7toNOpef/11d/r0abdr1y4XjUb5AvwvA92zV3d3tyspKXG5ubkEtx8D3bSlpcVNmDDBrV692p0+fdr99a9/dZMnT3YbN278CE49eA10zy1btrjrrrvOtba2Oueca2xsdHl5ee7AgQPWR04KO3fudNOmTTvn17KPNpkEd9++fS43NzfhYOvXr3dTp049494nn3zSffOb30y49u1vf9v99Kc/veTnTCZBNl2xYoVbtmxZwrXvfve7btGiRZf8nMkiyJ69Hn74YffUU08R3H4E2bS6utrNmzcv4drevXvdv//970t+zmQRZM/nnnvOXXvtta6lpcWdPn3abd682Y0bN87985//tDxyUli9erWbOnWqW79+/Tm/ln20yeR/XnC+F8z4sAt5wYyPoyCb3nXXXbr33nv7Hnd2dmrHjh0aO3as2XkHuyB7StLatWvV1tam2bNnWx4zqQTZdM+ePfr0pz+tefPmqbCwUNOnT1c8HtfIkSOtjz1oBdlzxowZyszMVHFxsa655hrNmTNHS5YsUVZWlvWxB73rr79emzdvVnFx8Tnv89Emk+Ce7wUzznfv+V4w4+MoyKYfdujQId1zzz0aO3asSkpKLukZk0mQPVtbW7V06VI98cQTSklJMTtjsgmy6ZEjR7R8+XKVlpbqtddeU3V1tR5//HE1NjaanXewC7LnyZMnlZeXp9/85jfavXu3qqurNX/+fL399ttm500WI0eOVGrq+V8DykebTILLC2b4F2TTXrt371Z5ebmuvPJKPfPMMwP6JPu4GOie7733nubOnatHH31UV1xxhekZk02Qz9GhQ4eqqKhIU6dOVWpqqiZNmqSysjJt3LjR7LyDXZA9Fy1apJycHI0fP15Dhw7VHXfcofz8fK1Zs8bsvP9rfLTJJLi8YIZ/QTaVpIaGBt199936xje+oSeeeEJDhw61PO6gN9A933jjDe3bt0/z589XNBpVNBqVJN1///1asGCB9bEHtSCfo9nZ2Xr//fcTrp06dUou2N9a/J8WZM/29vYz9kxNTdWQIUNMzvq/yEubLuaHzUF89atfdXPnznXvvvtu32/X1dbWnnFfS0uLGzdunFu/fn3fb4KNGzfO7d271+qoSWOgmzY2NrprrrnGvfrqqx/BKZPHQPf8b/zSVP8Guukf/vAH97nPfc6tXbvWnT592sXjcZefn+9efvnlj+DUg9dA91y6dKkrLCx0f/7zn92pU6fcxo0b3bhx49xf/vKXj+DUyeNcX8s+2mQW3EOHDrmKigo3efJkd+2117olS5a4np4e55xz+fn57sUXX+y799VXX3WlpaUuPz/fzZgxw23ZssXqmElloJuWlJS4vLw8l5+fn/DP97///Y/y+INOkM/RDyO4/Quy6ZYtW9yXvvQlF4lEXFFRkVu1atVHdexBa6B7njx50tXW1robb7zRTZw40d1+++38gXsA/vtr2XebAr/SFAAACM7kZ7gAAHzcEVwAAAwQXAAADBBcAAAMEFwAAAwQXAAADBBcAAAMEFwAAAwQXAAADBBcAAAMEFwAAAwQXAAADPwfIVB98TA26hEAAAAASUVORK5CYII="/>
 </div>
 </div>
 </div>
@@ -8934,7 +8906,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">config</span> <span class="o">=</span> <span class="p">{</span>
@@ -8961,7 +8933,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ==================== DATA LOADING ====================</span>
@@ -9006,7 +8978,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ==================== CHORD PROCESSING ====================</span>
@@ -9062,7 +9034,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">class</span><span class="w"> </span><span class="nc">PositionalEncoding</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
@@ -9104,7 +9076,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">class</span><span class="w"> </span><span class="nc">ImprovedChordConditionedMelodyGenerator</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
@@ -9384,7 +9356,7 @@ Total notes played: 310
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ==================== GENERATION ====================</span>
@@ -9417,12 +9389,12 @@ Total notes played: 310
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6d49405e">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6d49405e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load data</span>
@@ -9460,88 +9432,6 @@ Total notes played: 310
 <span class="n">model</span><span class="p">,</span> <span class="n">train_losses</span><span class="p">,</span> <span class="n">val_losses</span> <span class="o">=</span> <span class="n">train_model</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">C_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">X_val</span><span class="p">,</span> <span class="n">C_val</span><span class="p">,</span> <span class="n">y_val</span><span class="p">)</span>
 <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="s1">'enhanced_chord_melody_model.pth'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>Loading MIDI files: 100%|██████████| 58/58 [00:00&lt;00:00, 174.55it/s]
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Loaded 58 MIDI files
-Created sequences - X: (4058, 64, 128), C: (4058, 64, 128), y: (4058, 64, 128)
-Starting training...
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>Epoch 1:  58%|█████▊    | 63/108 [00:06&lt;00:04, 10.37it/s]
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[66], line 33</span>
-<span class="ansi-green-intense-fg ansi-bold">     29</span> X_train, X_val, C_train, C_val, y_train, y_val <span style="color: rgb(98,98,98)">=</span> train_test_split(
-<span class="ansi-green-intense-fg ansi-bold">     30</span>     X, C, y, test_size<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">0.15</span>, random_state<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">42</span>)
-<span class="ansi-green-intense-fg ansi-bold">     32</span> <span style="color: rgb(95,135,135)"># Train model</span>
-<span class="ansi-green-fg">---&gt; 33</span> model, train_losses, val_losses <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">train_model</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">X_train</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">C_train</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">y_train</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">X_val</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">C_val</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">y_val</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     34</span> torch<span style="color: rgb(98,98,98)">.</span>save(model<span style="color: rgb(98,98,98)">.</span>state_dict(), <span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">enhanced_chord_melody_model.pth</span><span style="color: rgb(175,0,0)">'</span>)
-
-Cell <span class="ansi-green-fg">In[65], line 44</span>, in <span class="ansi-cyan-fg">train_model</span><span class="ansi-blue-fg">(X_train, C_train, y_train, X_val, C_val, y_val)</span>
-<span class="ansi-green-intense-fg ansi-bold">     41</span> loss<span style="color: rgb(98,98,98)">.</span>backward()
-<span class="ansi-green-intense-fg ansi-bold">     43</span> <span style="color: rgb(95,135,135)"># Gradient clipping</span>
-<span class="ansi-green-fg">---&gt; 44</span> <span class="ansi-yellow-bg">torch</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">nn</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">utils</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">clip_grad_norm_</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">model</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">parameters</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">config</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">'</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">grad_clip</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">'</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     45</span> optimizer<span style="color: rgb(98,98,98)">.</span>step()
-<span class="ansi-green-intense-fg ansi-bold">     47</span> epoch_train_loss <span style="color: rgb(98,98,98)">+</span><span style="color: rgb(98,98,98)">=</span> loss<span style="color: rgb(98,98,98)">.</span>item()
-
-File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py:38</span>, in <span class="ansi-cyan-fg">_no_grad.&lt;locals&gt;._no_grad_wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">     36</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">_no_grad_wrapper</span>(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs):
-<span class="ansi-green-intense-fg ansi-bold">     37</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> torch<span style="color: rgb(98,98,98)">.</span>no_grad():
-<span class="ansi-green-fg">---&gt; 38</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py:219</span>, in <span class="ansi-cyan-fg">clip_grad_norm_</span><span class="ansi-blue-fg">(parameters, max_norm, norm_type, error_if_nonfinite, foreach)</span>
-<span class="ansi-green-intense-fg ansi-bold">    217</span>     parameters <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">list</span>(parameters)
-<span class="ansi-green-intense-fg ansi-bold">    218</span> grads <span style="color: rgb(98,98,98)">=</span> [p<span style="color: rgb(98,98,98)">.</span>grad <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> p <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> parameters <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> p<span style="color: rgb(98,98,98)">.</span>grad <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>]
-<span class="ansi-green-fg">--&gt; 219</span> total_norm <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">_get_total_norm</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">grads</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">norm_type</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">error_if_nonfinite</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">foreach</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    220</span> _clip_grads_with_norm_(parameters, max_norm, total_norm, foreach)
-<span class="ansi-green-intense-fg ansi-bold">    221</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> total_norm
-
-File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py:38</span>, in <span class="ansi-cyan-fg">_no_grad.&lt;locals&gt;._no_grad_wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">     36</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">_no_grad_wrapper</span>(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs):
-<span class="ansi-green-intense-fg ansi-bold">     37</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> torch<span style="color: rgb(98,98,98)">.</span>no_grad():
-<span class="ansi-green-fg">---&gt; 38</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py:98</span>, in <span class="ansi-cyan-fg">_get_total_norm</span><span class="ansi-blue-fg">(tensors, norm_type, error_if_nonfinite, foreach)</span>
-<span class="ansi-green-intense-fg ansi-bold">     93</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">RuntimeError</span>(
-<span class="ansi-green-intense-fg ansi-bold">     94</span>             <span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">foreach=True was passed, but can</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">t use the foreach API on </span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>device<span style="color: rgb(98,98,98)">.</span>type<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)"> tensors</span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-intense-fg ansi-bold">     95</span>         )
-<span class="ansi-green-intense-fg ansi-bold">     96</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-intense-fg ansi-bold">     97</span>         norms<span style="color: rgb(98,98,98)">.</span>extend(
-<span class="ansi-green-fg">---&gt; 98</span>             [<span class="ansi-yellow-bg">torch</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">linalg</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">vector_norm</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">g</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">norm_type</span><span class="ansi-yellow-bg">)</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> g <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> device_tensors]
-<span class="ansi-green-intense-fg ansi-bold">     99</span>         )
-<span class="ansi-green-intense-fg ansi-bold">    101</span> total_norm <span style="color: rgb(98,98,98)">=</span> torch<span style="color: rgb(98,98,98)">.</span>linalg<span style="color: rgb(98,98,98)">.</span>vector_norm(
-<span class="ansi-green-intense-fg ansi-bold">    102</span>     torch<span style="color: rgb(98,98,98)">.</span>stack([norm<span style="color: rgb(98,98,98)">.</span>to(first_device) <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> norm <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> norms]), norm_type
-<span class="ansi-green-intense-fg ansi-bold">    103</span> )
-<span class="ansi-green-intense-fg ansi-bold">    105</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> error_if_nonfinite <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> torch<span style="color: rgb(98,98,98)">.</span>logical_or(total_norm<span style="color: rgb(98,98,98)">.</span>isnan(), total_norm<span style="color: rgb(98,98,98)">.</span>isinf()):
-
-<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
 </div>
 </div>
 </div>
@@ -9585,7 +9475,7 @@ File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate sample</span>
